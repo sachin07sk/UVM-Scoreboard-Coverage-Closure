@@ -319,8 +319,7 @@ uvm_scoreboard_coverage/
 │   └── soc_test.sv           Test — runs regression sequence
 │
 └── sim/
-    ├── soc_top.sv            Simulation top
-    └── run.do                Cadence NCSim compile + simulate
+    └── soc_top.sv            Simulation top
 ```
 
 ---
@@ -368,25 +367,6 @@ uvm_scoreboard_coverage/
  STATUS           : SIGN-OFF COMPLETE ✓
 ==========================================
 ```
-
----
-
-## How to Simulate (Cadence NCSim)
-
-```bash
-# Step 1: Navigate to sim directory
-cd C:/VLSI_Projects/uvm_scoreboard_coverage/sim
-
-# Step 2: In QuestaSim transcript (or NCSim):
-do run.do
-
-# Expected output:
-#   All modules compile with 0 errors
-#   All scoreboard checks PASS
-#   Coverage reaches 100% on all covergroups
-#   STATUS: SIGN-OFF COMPLETE
-```
-
 ---
 
 ## Key Concepts Demonstrated
